@@ -10,13 +10,11 @@
           <el-submenu index="2">
             <template slot="title"><i class="el-icon-tickets"></i><span>项目任务</span></template>
             <el-menu-item-group>
-              <el-menu-item index="/task">选项1</el-menu-item>
-              <el-menu-item index="2-2">选项2</el-menu-item>
+              <el-menu-item index="/task">批量新建订单</el-menu-item>
+              <el-menu-item index="2-2">项目列表</el-menu-item>
+              <el-menu-item index="2-2">任务派单</el-menu-item>
+              <el-menu-item index="2-2">订单列表</el-menu-item>
             </el-menu-item-group>
-            <el-submenu index="2-4">
-              <template slot="title">选项4</template>
-              <el-menu-item index="2-4-1">选项4-1</el-menu-item>
-            </el-submenu>
           </el-submenu>
           <el-submenu index="3">
             <template slot="title"><i class="el-icon-wallet"></i><span>资金发票</span></template>
@@ -106,7 +104,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+*{
+  margin: 0;
+  padding: 0;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  background-color:#f5f5f5;
+}
 .el-container{
   height: 100vh;
 }

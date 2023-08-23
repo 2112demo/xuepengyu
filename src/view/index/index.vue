@@ -49,7 +49,6 @@ export default {
   margin: 0;
 }
 .index{
-  width: 100%;
   height: 100%;
   background: #f5f5f5;
 }

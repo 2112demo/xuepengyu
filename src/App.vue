@@ -12,7 +12,7 @@
             <el-menu-item-group>
               <el-menu-item index="/task">批量新建订单</el-menu-item>
               <el-menu-item index="2-2">项目列表</el-menu-item>
-              <el-menu-item index="2-2">任务派单</el-menu-item>
+              <el-menu-item index="/sendRoders">任务派单</el-menu-item>
               <el-menu-item index="2-2">订单列表</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
